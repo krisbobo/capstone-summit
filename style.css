@@ -142,3 +142,112 @@ section {
   margin: 40px 0;
   font-size: 20px;
 }
+
+/*======== Dynamic Section =======*/
+
+.talks {
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.subheading {
+  font-weight: 700;
+  font-size: 25px;
+  width: fit-content;
+  margin: 30px auto 15px auto;
+}
+
+.talks .prog-line {
+  width: 50px;
+  margin: auto;
+  margin-bottom: 40px;
+  border: 1px solid #ec5242;
+}
+
+.grid-container .speaker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.pic-container {
+  width: 80%;
+  max-width: 150px;
+  margin-right: 20px;
+  height: 150px;
+  position: relative;
+}
+
+.pic-container .image-container {
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.pic-container .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.talks .square {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  background-color: #272a31;
+  width: 70px;
+  height: 70px;
+  z-index: -1;
+}
+
+.speaker-info {
+  max-width: 50%;
+}
+
+.speaker-info h3 {
+  font-size: 25px;
+}
+
+.speaker-info h4 {
+  font-weight: 400;
+  font-size: 17px;
+  color: #ec5242;
+  font-style: italic;
+  margin: 10px 0;
+}
+
+.speaker-info .line-dark {
+  width: 30px;
+  margin: 10px 0 10px 0;
+  border: 1px solid #d3d3d3;
+}
+
+.speaker-info p {
+  color: #272a31;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.talks .more {
+  width: 100%;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  padding: 15px 10px;
+  color: #272a31;
+  font-size: 18px;
+}
+
+#partners,
+footer {
+  display: none;
+}
+
+
+
+
