@@ -1,10 +1,10 @@
 @import url(./main.css);
 
 .headline {
-  background-image: url(./assets/home.jpg);
+  background-image: url(../assets/home.jpg);
   background-size: cover;
   background-position-x: 100%;
-  padding-top: 18%;
+  padding-top: 25%;
   opacity: 0.8;
 }
 
@@ -86,10 +86,14 @@
   padding-right: 5px;
 }
 
+.speaker-info h3 {
+  font-size: 25px;
+}
+
 .row-container li h3 {
   color: #ec5242;
   font-size: 20px;
-  padding-right: 21px;
+  padding-right: 29px;
 }
 
 .row-container p {
@@ -105,11 +109,11 @@
   padding: 35px 55px;
   margin: 40px 0;
   font-size: 20px;
-  border: 0px;
+  border: 0;
   cursor: pointer;
 }
 
-/*======== Dynamic Section =======*/
+/* ======== Dynamic Section ======= */
 
 .talks {
   padding: 20px;
@@ -176,10 +180,6 @@
   max-width: 50%;
 }
 
-.speaker-info h3 {
-  font-size: 25px;
-}
-
 .speaker-info h4 {
   font-weight: 400;
   font-size: 17px;
@@ -220,7 +220,9 @@ footer {
     padding: 0;
   }
 
-  .bar1, .bar2, .bar3 {
+  .bar1,
+  .bar2,
+  .bar3 {
     display: none;
   }
 
@@ -239,17 +241,16 @@ footer {
     align-items: baseline;
     justify-content: flex-end;
     padding-right: 9%;
- }
+  }
 
- nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
- }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
- .navbar div .logo img {
-  width: 5px;
-  height: 10px;
- }
-
+  .navbar div .logo img {
+    width: 5px;
+    height: 10px;
+  }
 }
