@@ -7,7 +7,7 @@
   padding-top: 25%;
   opacity: 0.8;
 }
-  
+
 .aboutText {
   font-weight: 700;
   font-size: 40px;
@@ -16,7 +16,7 @@
   padding: 5px;
   text-align: center;
 }
-  
+
 .about {
   text-align: center;
   font-weight: 500;
@@ -25,17 +25,17 @@
   letter-spacing: 0.3rem;
   padding: 5px;
 }
-  
+
 .description {
   color: #272a31;
-	background: #fff;
+  background: #fff;
   font-size: 20px;
   line-height: 25px;
   padding: 10px;
   border: 1px solid #f4f4f4;
   margin-bottom: 25px;
 }
-  
+
 .contact {
   color: #f2f3f7;
   font-size: 16px;
@@ -43,7 +43,7 @@
   padding-bottom: 10px;
   text-align: center;
 }
-  
+
 .email {
   color: #f2f3f7;
   font-size: 16px;
@@ -53,161 +53,161 @@
   text-align: center;
 }
 
-.about-logo	{
-	background: #fff;
-	border-bottom: 1px solid lightgray;
+.about-logo {
+  background: #fff;
+  border-bottom: 1px solid lightgray;
 }
 
 .about-logo h2 {
-	color: #272a31;
-	text-align: center;
-	font-size: 28px;
+  color: #272a31;
+  text-align: center;
+  font-size: 28px;
   font-weight: 600;
   margin: 30px 0 15px;
 }
 
 .about-logo .line {
-	border: 1px solid #ec5242;
-	width: 35px;
-	margin: auto;
+  border: 1px solid #ec5242;
+  width: 35px;
+  margin: auto;
 }
 
-.about-logo p	{
-	color: #272a31;
-	font-size: 14px;
+.about-logo p {
+  color: #272a31;
+  font-size: 14px;
   font-weight: 400;
   padding-bottom: 10px;
-	padding-top: 20px;
+  padding-top: 20px;
   text-align: center;
 }
 
 .logoHolder {
-	border: 1px solid #d3d3d3;
-	margin: 20px auto 10px;
-	padding: 30px 10px;
-	text-align: center;
-	width: 80%;
+  border: 1px solid #d3d3d3;
+  margin: 20px auto 10px;
+  padding: 30px 10px;
+  text-align: center;
+  width: 80%;
+}
+
+.partner h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 30px 0 20px;
+}
+
+.footer img {
+  width: 50%;
+  padding: 0 5%;
+}
+
+.footer p {
+  color: #272a31;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 5px 0;
+  text-align: center;
 }
 
 .previous-events h2 {
-	color: #272a31;
-	text-align: center;
-	font-size: 28px;
+  color: #272a31;
+  text-align: center;
+  font-size: 28px;
   font-weight: 600;
   margin: 30px 0 15px;
 }
 
 .previous-events .line {
-	border: 1px solid #ec5242;
-	width: 35px;
-	margin: auto;
+  border: 1px solid #ec5242;
+  width: 35px;
+  margin: auto;
 }
 
-.previous-events p	{
-	color: #272a31;
-	font-size: 14px;
+.previous-events p {
+  color: #272a31;
+  font-size: 14px;
   font-weight: 400;
   padding-bottom: 10px;
-	padding-top: 20px;
+  padding-top: 20px;
   text-align: center;
 }
 
 .event-years {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: center;
-	margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
 }
 
 .events {
-	position: relative;
-	max-width: 100%;
-	width: 42rem;
-	margin-bottom: 20px;
+  position: relative;
+  max-width: 100%;
+  width: 42rem;
+  margin-bottom: 20px;
 }
 
 .year-info {
-	position: absolute;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	width: 100%;
-	background-color: #d12411b3;
-	top: 0;
-	left: 0;
-	height: 99%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #d12411b3;
+  top: 0;
+  left: 0;
+  height: 99%;
 }
 
 .previous-events > div img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	object-position: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .previous-events > div h2 {
-	color: #fff;
-	text-align: center;
-	font-size: 32px;
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
   font-weight: 700;
 }
 
 .previous-events > div p {
-	color: #fff;
-	font-size: 16px;
+  color: #fff;
+  font-size: 16px;
   font-weight: 600;
   text-align: center;
 }
 
 .partner {
-	background-color: #272a31da;
-}
-
-.partner h2 {
-	color: #fff;
-	text-align: center;
-	font-size: 28px;
-  font-weight: 600;
-  margin: 30px 0 20px;
+  background-color: #272a31da;
 }
 
 .partner .line {
-	border: 1px solid #ec5242;
-	width: 35px;
-	margin: auto;
+  border: 1px solid #ec5242;
+  width: 35px;
+  margin: auto;
 }
 
 .partner .first-row {
-	display: flex;
-	width: 100%;
-	align-items: baseline;
-	justify-content: center;
-	gap: 30px;
+  display: flex;
+  width: 100%;
+  align-items: baseline;
+  justify-content: center;
+  gap: 30px;
 }
 
 .partner .second-row {
-	display: flex;
-	align-items: baseline;
-	justify-content: center;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
 }
 
 .footer {
-	display: flex;
-	align-items: center;
-	padding: 0rem 5%;
-}
-
-.footer img {
-	width: 50%;
-	padding: 0 5%;
-}
-
-.footer p {
-	color: #272a31;
-	font-size: 16px;
-  font-weight: 700;
-	padding: 5px 0;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 0 5%;
 }
