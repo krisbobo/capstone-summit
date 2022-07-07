@@ -42,3 +42,89 @@ nav {
 section {
   padding: 2rem 5%;
 }
+
+
+@media only screen and (min-width: 768px) {
+  header {
+    background: none;
+    padding: 0;
+  }
+
+  .bar1,
+  .bar2,
+  .bar3 {
+    display: none;
+  }
+
+  .navbar-nav {
+    display: block;
+    background: #272a31;
+    width: 100%;
+    height: 25px;
+    padding: 3px;
+  }
+
+  .navbar-nav ul {
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+    padding-right: 10%;
+  }
+
+  .navbar-nav ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0px 10px;
+    color: #fff;
+  }
+
+  .navbar-nav ul li i {
+    color: #fff;
+    padding: 0px 10px;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
+  .navbar #logo {
+    width: 42%;
+    padding: 5px 0;
+  }
+
+  .navbar div .logo img {
+    width: 20%;
+  }
+
+  .navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .navbar ul li {
+    padding: 1rem;
+  }
+
+  .navbar ul li a {
+    text-decoration: none;
+    color: #272a31;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+
+  .navbar ul li #border {
+    color: #ec5242;
+    border: 5px solid #ec5242;
+    padding: 10px;
+    background-color: transparent;
+    font-size: 1.2rem;
+  }
+}
