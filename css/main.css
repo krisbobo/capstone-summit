@@ -43,7 +43,6 @@ section {
   padding: 2rem 5%;
 }
 
-
 @media only screen and (min-width: 768px) {
   header {
     background: none;
@@ -75,13 +74,13 @@ section {
   .navbar-nav ul li a {
     text-decoration: none;
     font-size: 1rem;
-    padding: 0px 10px;
+    padding: 0 10px;
     color: #fff;
   }
 
   .navbar-nav ul li i {
     color: #fff;
-    padding: 0px 10px;
+    padding: 0 10px;
   }
 
   .navbar {
