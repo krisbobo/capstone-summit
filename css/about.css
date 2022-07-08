@@ -72,7 +72,7 @@
   margin: auto;
 }
 
-.about-logo p {
+.about-logo .logoText {
   color: #272a31;
   font-size: 14px;
   font-weight: 400;
@@ -102,7 +102,8 @@
   padding: 0 5%;
 }
 
-.footer p {
+.footer-title,
+.copyright {
   color: #272a31;
   font-size: 16px;
   font-weight: 700;
@@ -209,5 +210,254 @@
 .footer {
   display: flex;
   align-items: center;
-  padding: 0 5%;
+  padding: 1rem 5%;
+}
+
+.about-header {
+  display: none;
+}
+
+.desk-line {
+  display: none;
+}
+
+.desktop-description {
+  display: none;
+}
+
+.desk-text {
+  display: none;
+}
+
+.footer #rights {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  #partners {
+    display: none;
+  }
+
+  section {
+    padding: 3rem 10%;
+  }
+
+  .headline {
+    padding-top: 20%;
+    opacity: 0.7;
+  }
+
+  .about-header {
+    display: block;
+    font-weight: 900;
+    font-size: 50px;
+    color: #ff0009;
+    letter-spacing: 0.3rem;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .aboutText {
+    display: none;
+  }
+
+  .about {
+    display: none;
+  }
+
+  .description {
+    display: none;
+  }
+
+  .desk-line {
+    display: block;
+    border: 1px solid #ec5242;
+    width: 50px;
+    margin: 20px auto;
+  }
+
+  .desktop-description {
+    display: block;
+    color: #272a31;
+    background: #fff;
+    font-size: 25px;
+    line-height: 25px;
+    padding: 50px;
+    border: 1px solid #f4f4f4;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .contact {
+    color: #f2f3f7;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+
+  .email {
+    color: #f2f3f7;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+  }
+
+  .about-logo {
+    background: #fff;
+    border-bottom: 1px solid lightgray;
+  }
+
+  .about-logo h2 {
+    color: #272a31;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 30px 0 15px;
+  }
+
+  .about-logo .line {
+    border: 1px solid #ec5242;
+    width: 50px;
+    margin: 20px auto;
+  }
+
+  .logoText {
+    display: none;
+  }
+
+  .desk-text {
+    display: block;
+    color: #272a31;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 25px;
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .logoHolder {
+    border: 1px solid #d3d3d3;
+    margin: 8px auto;
+    padding: 30px 10px;
+    text-align: center;
+    width: 65%;
+  }
+
+  .logoHolder img {
+    width: 50%;
+  }
+
+  .footer img {
+    width: 40%;
+    padding: 0 5%;
+  }
+
+  .footer-title,
+  .copyright {
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 2px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .previous-events h2 {
+    color: #272a31;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 30px auto 15px;
+  }
+
+  .previous-events .line {
+    border: 1px solid #ec5242;
+    width: 50px;
+    margin: auto;
+  }
+
+  .previous-events p {
+    color: #272a31;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .event-years {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+    width: 80%;
+  }
+
+  .events {
+    position: relative;
+    max-width: 100%;
+    width: 45rem;
+    margin: 20px 10px;
+  }
+
+  .year-info {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #d12411b3;
+    top: 0;
+    left: 0;
+    height: 99%;
+  }
+
+  .previous-events > div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .previous-events > div h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .previous-events > div p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3px auto;
+    padding: 1rem 20%;
+    background: #272a31da;
+  }
+
+  .footer #rights {
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 2px;
+    text-align: left;
+    margin: 0 auto;
+  }
 }
