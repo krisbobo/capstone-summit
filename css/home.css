@@ -229,7 +229,6 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
-
   .homeText {
     display: none;
   }
@@ -334,7 +333,7 @@ footer {
     width: 100%;
     color: #fff;
     font-size: 14px;
-    padding: 0px;
+    padding: 0;
     text-align: center;
   }
 
@@ -357,7 +356,7 @@ footer {
     padding: 20px;
     margin-bottom: 40px;
   }
-  
+
   .subheading {
     font-weight: 700;
     font-size: 25px;
@@ -446,5 +445,4 @@ footer {
     text-align: left;
     margin: 5px auto;
   }
-
 }
