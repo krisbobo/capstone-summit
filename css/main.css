@@ -39,6 +39,14 @@ nav {
   display: none;
 }
 
+.navbar ul li a:hover {
+  color: #ec5242;
+}
+
+.navbar ul li a:focus {
+  color: #ec5242;
+}
+
 section {
   padding: 2rem 5%;
 }
