@@ -147,6 +147,11 @@
   margin-bottom: 50px;
 }
 
+.footer img {
+  width: 50%;
+  padding: 0 5%;
+}
+
 .pic-container {
   width: 80%;
   max-width: 150px;
@@ -220,11 +225,6 @@
   align-items: center;
   padding: 1rem 5%;
   background: #272a31da;
-}
-
-.footer img {
-  width: 50%;
-  padding: 0 5%;
 }
 
 .footer-title {
