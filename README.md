@@ -4,6 +4,10 @@
 
 > In this project, I built two pages (home page and about page) of an imaginary summit event. The design was based on a previous design by Cindy Shin at Behance. I personalized it to a summit on climate change, which is one of the many problems we face as a global community. By completing this project, I have demonstrated mastery in UI design using HTML and CSS and an ability to use JavaScript to manipulate events. This project also signifies my completion of module 1 in the Microverse curriculum.
 
+## Live Demo Description
+
+![Description](https://www.loom.com/share/80ff1a57ee9b43ddbce00d57b82a0de9)
+
 ## Built With
 
 - Major Languages: HTML, CSS and JavaScript.
