@@ -1,15 +1,15 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Title
+# Capstone 1 - SOP Global Summit
 
-> Description
-
+> In this project, I built two pages (home page and about page) of an imaginary summit event. The design was based on a previous design by Cindy Shin at Behance. I personalized it to a summit on climate change, which is one of the many problems we face as a global community. By completing this project, I have demonstrated mastery in UI design using HTML and CSS and an ability to use JavaScript to manipulate events. This project also signifies my completion of module 1 in the Microverse curriculum.
 
 ## Built With
 
-- Major languages: HTML and CSS
+- Major Languages: HTML, CSS and JavaScript.
+- Tools: VsCode, Linters, Chrome Dev Tools.
 
-## Live Demo (if available)
+## Live Demo
 
 ![Image](absolute link)
 
@@ -19,23 +19,39 @@ To get a local copy up and running, follow these simple example steps.
 
 ## Prerequisites
 
+Before attempting to get a copy of this, you should know(have) how to do the following:
+
+- How to use the command line interface(CLI)
+
+- Know how to navigate directories or folders at the CLI.
+
+- Know how to get the URL(https/ssh) of a repository on GitHub.
+
+- You should have a code editor installed, preferably VsCode.
 
 ## Setup
 
+- In desired folder or directory in the CLI, run the command:
+
+>                   git clone (https/ssh)URL
+
+-Navigate into the cloned folder or repository by running the command:
+
+>                   cd <folder/name of the repository>
+
+- If VsCode is your default code editor, run:
+
+>                   code .
+
+- You are all setup!
 
 ## Authors
 
-👤 **Author1**
+👤 **Kiyong Bohbo**
 
 - GitHub: [krisbobo](https://github.com/krisbobo)
 - Twitter: [ChrisboboSys](https://twitter.com/ChrisboboSys)
 - LinkedIn: [kiyong-christian](https://linkedin.com/in/kiyong-christian)
-
-👤 **Author2**
-
-- GitHub:
-- Twitter:
-- LinkedIn:
 
 ## 🤝 Contributing
 
@@ -49,9 +65,12 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Cindy Shin from Behance
+- Photo credit goes to Luis Quintero, Vanessa Garcia.
+- The home page's background image was gotten from unsplash and credit goes to Gavin Kelman.
+- The about page's background image was gotten from unsplash and credit goes to Annie Spratt for making that possible.
+- The company logos added in the partners section is only for demo and I have no links or connection to these companies.
+- Any other person whose photo or icon was used but wasn't duly noted.
 
 ## 📝 License
 
