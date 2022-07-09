@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-![Image](absolute link)
+![Capstone-1](https://krisbobo.github.io/capstone-summit/)
 
 ## Getting Started
 
