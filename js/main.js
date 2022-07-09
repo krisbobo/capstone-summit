@@ -1,16 +1,16 @@
-const hamburger = document.querySelector('#menu');
+const hamburger = document.querySelector('.menu-container');
 const navbar = document.querySelector('.navbar');
 
 hamburger.addEventListener('click', () => {
-  hamburger.classList.toggle('fa-times');
+  hamburger.classList.toggle('change');
 
-  navbar.classList.toggle('active');
+  navbar.classList.toggle('d-block');
 });
 
 window.onscroll = () => {
-  hamburger.classList.remove('fa-times');
+  hamburger.classList.remove('change');
 
-  navbar.classList.remove('active');
+  navbar.classList.remove('d-block');
 };
 
 // ========== Dynamic JS part ===========

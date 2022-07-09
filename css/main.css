@@ -31,12 +31,30 @@ header {
   cursor: pointer;
 }
 
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
 .navbar-nav {
   display: none;
 }
 
 nav {
   display: none;
+}
+
+.d-block {
+  display: block;
 }
 
 .navbar ul li a:hover {
