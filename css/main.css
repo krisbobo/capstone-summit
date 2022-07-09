@@ -163,26 +163,22 @@ section {
   .navbar ul {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
-  }
-
-  .navbar ul li {
-    padding: 1rem;
   }
 
   .navbar ul li a {
     text-decoration: none;
     color: #272a31;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 19px;
   }
 
   .navbar ul li #border {
     color: #ec5242;
     border: 5px solid #ec5242;
     padding: 10px;
-    background-color: transparent;
-    font-size: 1.2rem;
+    font-size: 19px;
+    display: block;
   }
 }
