@@ -1,16 +1,21 @@
 const hamburger = document.querySelector('.menu-container');
-const navbar = document.querySelector('.navbar');
+const navbar = document.querySelector('.mobile-nav');
+const header = document.querySelector('header');
 
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('change');
 
   navbar.classList.toggle('d-block');
+
+  header.classList.toggle('background');
 });
 
 window.onscroll = () => {
   hamburger.classList.remove('change');
 
   navbar.classList.remove('d-block');
+
+  header.classList.remove('background');
 };
 
 // ========== Dynamic JS part ===========
