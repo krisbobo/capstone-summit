@@ -144,7 +144,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 77%;
+  height: 100%;
   margin-bottom: 50px;
   overflow-y: hidden;
 }
@@ -418,8 +418,9 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 80%;
+    height: 78%;
     margin-bottom: 50px;
+    overflow-y: hidden;
   }
 
   .talks .more {
